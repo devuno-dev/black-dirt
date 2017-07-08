@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Template 1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" href="/img/" sizes="31x31">
+        <script src="js/dropDownMenu.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+    <!-- Navigation Section -->
+        <section id="navSection" class="w3-content">
+            <div id="navBar" class="w3-bar w3-mobile">
+
+            <!-- Title & Logo Section - Left Aligned-->
+                <span class="w3-bar-item w3-left w3-mobile">
+                        <a id="logo" class="w3-mobile" href="index.html">Logo</a>
+                </span>
+
+            <!-- Navigation Tabs Section - Right Aligned-->
+                <span id="navTabsSection"class="w3-bar-item w3-right w3-hide-small w3-hide-medium w3-mobile">
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">home</i>Home</a>
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">build</i>Services</a>
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">info</i>About</a>
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">chat</i>Contact</a>
+                </span>
+
+            <!-- Mobile Menu Access - Center Aligned-->
+                <a id="dropDown" class="w3-bar w3-center w3-hide-large w3-xlarge material-icons" href="javascript:void(0)" onclick="dropDownFunc()">keyboard_arrow_down</a>
+                <a id="dropUp" class="w3-bar w3-hide w3-center w3-hide-large w3-xlarge material-icons" href="javascript:void(0)" onclick="dropDownFunc()">keyboard_arrow_up</a>
+
+            <!-- Mobile Navigation Tabs Section - Center Aligned-->
+                <span id="navTabsSectionMobile"class="w3-bar-item w3-right w3-hide w3-hide-large w3-mobile">
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">home</i>Home</a>
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">build</i>Services</a>
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">info</i>About</a>
+                        <a class="navTabs w3-mobile" href="#"><i class="navTabsIcons w3-xlarge material-icons">chat</i>Contact</a>
+                </span>
+
+            </div>
+        </section>
+
+    <!-- Main Page Sections -->
+        <section id="section-one" class="sections w3-content">
+
+            <!-- Space for images & info regarding the product -->
+                <h1 class="w3-center w3-mobile">Welcome</h1>
+                <h2 class="w3-center w3-mobile">Secondary line</h2>
+                <div id="image-one" class="w3-container w3-mobile"></div>
+
+        </section>
+        <div class="sectionBar w3-center w3-bar w3-mobile">Info</div>
+
+
+        <section id="section-two" class="sections w3-content">
+
+            <!-- Space for images & info regarding the product -->
+                <h1 class="w3-right-align w3-mobile">Services</h1>
+                <h2 class="w3-right-align w3-mobile">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                <div id="image-two" class="w3-container w3-mobile"></div>
+
+        </section>
+        <div class="sectionBar w3-center w3-bar w3-mobile">Learn more about services.<a href="#"><i class="pageIcons w3-center w3-xlarge material-icons">build</i></a></div>
+
+
+        <section id="section-three" class="sections w3-content">
+
+            <!-- Space for images & info regarding the product -->
+                <h1 class="w3-left-align w3-mobile">About the Company.</h1>
+                <h2 class="w3-left-algin w3-mobile">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+                <div id="image-three" class="w3-container w3-mobile"></div>
+
+        </section>
+        <div class="sectionBar w3-center w3-bar w3-mobile">Learn more about our Company.<a href="#"><i class="pageIcons w3-center w3-xlarge material-icons">info</i></a></div>
+
+
+        <section id="section-four" class="sections w3-content">
+
+            <!-- Space for images & info regarding the product -->
+                <h1 class="w3-right-align w3-mobile">Contact Us.</h1>
+                <h2 class="w3-right-align w3-mobile">H2 Content</h2>
+                <div id="image-four" class="w3-container w3-mobile"></div>
+
+        </section>
+        <div class="sectionBar w3-center w3-bar w3-mobile">Get in touch.<a href="#"><i class="pageIcons w3-center w3-xlarge material-icons">chat</i></a></div>
+
+    <!-- Footer -->
+        <section id="footer" class="w3-content">
+            <!-- Logo, Address, Contact and Seperating Break; Encapsulating the socialBar - Center Aligned-->
+            <div id="footerBar" class="w3-center w3-bar w3-mobile">
+                <h1>Logo</h1>
+                <h2 class="w3-left-align">123 Lorem Street, Orem UT 84057</h2>
+                <hr class="w3-mobile">
+
+            <!-- Social Media and Devuno logo - Center Aligned-->
+                <div id="socialBar" class="w3-center w3-bar w3-mobile">
+                    <a class="socialIcon w3-bar-item w3-mobile" href="facebook.com"><img class="" src="img/SocialIcons/facebook_1.png"></a>
+                    <a class="socialIcon w3-bar-item w3-mobile" href="twitter.com"><img class="" src="img/SocialIcons/twitter_2.png"></a>
+                    <a class="socialIcon w3-bar-item w3-mobile" href="linkedin.com"><img class="" src="img/SocialIcons/linkedin_3.png"></a>
+                    <a class="socialIcon w3-bar-item w3-mobile" href="instagram.com"><img class="" src="img/SocialIcons/instagram_4.png"></a>
+                    <a class="socialIcon w3-bar-item w3-mobile" href="youtube.com"><img class="" src="img/SocialIcons/youtube_5.png"></a>
+                </div>
+                <br>
+                <a id="devunoLogo" class="w3-center w3-hide-small w3-mobile" href="facebook.com"><img class="w3-mobile" src="img/dev_noName1.png"></a>
+
+            </div>
+        </section>
+
+    </body>
+</html>
