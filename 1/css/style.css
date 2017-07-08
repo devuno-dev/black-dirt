@@ -104,10 +104,9 @@ html,body{
         background-color: #d5d2d2;
 }
 .navTabs:active{
-    background-color: #393939;
+    background-color: #555555;
     color: #ffffff;
 }
-
 .navTabsIcons{
         position: relative;
         left: -20px;
@@ -306,7 +305,7 @@ html,body{
     background-color: #d5d2d2;
 }
 .sectionBar:active{
-    background-color: #393939;
+    background-color: #555555;
     color: #ffffff;
 }
 .sectionBarLinks{
@@ -317,8 +316,6 @@ html,body{
   position: relative;
   top: 5px;
   left: 10px;
-
-  transition: color .1s;
 }
 
 /*Footer Styling*/
