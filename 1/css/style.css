@@ -11,9 +11,13 @@ html,body{
 
 #navBar{
         background-color: #ffffff;
+        box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         padding-top: 10px;
         padding-bottom: 10px;
+
+        position: fixed;
+        z-index: 2;
 }
 
 #logo{
@@ -114,7 +118,12 @@ html,body{
 }
 
     /*Landing Section Styling*/
-#section-one, #section-two, #section-three, #section-four{
+#section-one,
+#products-section-one,
+#section-two,
+#products-section-two,
+#section-three,
+#section-four{
         position: relative;
         max-width: 1920px;
         height: 650px;
@@ -172,6 +181,7 @@ html,body{
         z-index: -1;
 }
     /*Used for positioning*/
+        /*HOME*/
 #section-one h1{
         position: relative;
         top: 300px;
@@ -266,6 +276,48 @@ html,body{
 
         color: #ffffff;
 }
+
+        /*PRODUCTS*/
+#products-section-one h1{
+        position: relative;
+        top: 300px;
+
+        color: #ffffff;
+
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: -10px;
+
+        letter-spacing: 1px;
+}
+#products-section-one h2{
+        position: relative;
+        top: 300px;
+
+        color: #ffffff;
+}
+#products-section-two h1{
+        position: relative;
+        top: 75px;
+        right: 20px;
+
+        color: #ffffff;
+
+        font-size: 70px;
+        font-family: sans-serif;
+        font-weight: 700;
+
+        letter-spacing: 1px;
+}
+#products-section-two h2{
+        position: relative;
+        top: 125px;
+        right: 20px;
+
+        color: #ffffff;
+}
     /*Used for class based styling*/
 .sections h1{
         font-size: 40px;
@@ -290,6 +342,7 @@ html,body{
         position: relative;
         width: 100%;
         background-color: #ffffff;
+        box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         font-size: 25px;
         font-family: sans-serif;
@@ -394,6 +447,13 @@ html,body{
   }
   #section-two h1, #section-two h2{
     top: 225px;
+  }
+  #products-section-two h1, #products-section-two h2{
+    top: 325px;
+    right: 0px;
+  }
+  #products-section-two h1{
+      font-size: 30px;
   }
   #section-three h1, #section-three h2{
     top: 200px;
