@@ -128,6 +128,10 @@ html,body{
         max-width: 1920px;
         height: 650px;
 }
+#products-section-two{
+    box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
+}
+
     /*Background image styling id's*/
 #image-one{
         position: absolute;
@@ -179,6 +183,30 @@ html,body{
         filter: contrast(90%) brightness(80%);
         background-attachment: fixed;
         z-index: -1;
+}
+#products-image-one{
+        position: absolute;
+        top: 0px;
+        height: 650px;
+        width: 100%;
+        background-image:url("../img/stock_2.jpg");
+        background-repeat:;
+        filter: contrast(90%);
+        background-position: 50% 70%;
+        background-attachment: fixed;
+        z-index: -3;
+}
+#products-image-two{
+        position: absolute;
+        top: 0px;
+        height: 650px;
+        width: 100%;
+        background-image: url("../img/stock_3_frosted.png");
+        background-repeat:;
+        background-position: 50% 70%;
+        background-attachment: fixed;
+        z-index: -2;
+
 }
     /*Used for positioning*/
         /*HOME*/
@@ -303,7 +331,7 @@ html,body{
         top: 75px;
         right: 20px;
 
-        color: #ffffff;
+        color: #303030;
 
         font-size: 70px;
         font-family: sans-serif;
@@ -316,7 +344,18 @@ html,body{
         top: 125px;
         right: 20px;
 
-        color: #ffffff;
+
+        color: #303030;
+}
+#products-section-two hr{
+        position: relative;
+        top: 100px;
+        width: 50%;
+        margin-left: 25%;
+
+        border-color: #a4a4a4;
+        box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);
+
 }
     /*Used for class based styling*/
 .sections h1{
@@ -405,7 +444,7 @@ html,body{
   top: -50px;
   right: 0px;
   width: 50%;
-    margin-left: 25%;
+  margin-left: 25%;
 }
 
 #socialBar{
@@ -449,11 +488,11 @@ html,body{
     top: 225px;
   }
   #products-section-two h1, #products-section-two h2{
-    top: 325px;
+    top: 125px;
     right: 0px;
   }
   #products-section-two h1{
-      font-size: 30px;
+      font-size: 50px;
   }
   #section-three h1, #section-three h2{
     top: 200px;
@@ -473,14 +512,92 @@ html,body{
 }
     /*Used for footer HR and H2 adjustments in positioning*/
 @media only screen and (max-width: 600px) {
-  #footerBar h2{
-    margin-left: 10%;
-  }
-  #footerBar hr{
-    right: 0px;
-    margin-left: 0%;
-  }
-  #socialBar{
-  right: 30px;
-  }
+    #products-section-two hr{
+            position: relative;
+            top: 125px;
+            width: 50%;
+            margin-left: 0%;
+
+            border-color: #a4a4a4;
+    }
+    #footerBar h2{
+        margin-left: 10%;
+    }
+    #footerBar hr{
+        right: 0px;
+        margin-left: 0%;
+    }
+    #socialBar{
+        right: 30px;
+    }
+}
+    /*Used to expand height of sections on wider resolutions*/
+@media only screen and (min-width: 1280px){
+    #section-one,
+    #products-section-one,
+    #section-two,
+    #products-section-two,
+    #section-three,
+    #section-four{
+            position: relative;
+            max-width: 1920px;
+            height: 775px;
+    }
+
+    #image-one{
+        height: 775px;
+    }
+    #image-two{
+        height: 775px;
+    }
+    #image-three{
+        height: 775px;
+    }
+    #image-four{
+        height: 775px;
+    }
+    #products-image-one{
+        height: 775px;
+    }
+    #products-image-two{
+        height: 775px;
+    }
+
+    #section-one h1{
+        top: 375px;
+        font-size: 60px;
+    }
+    #section-one h2{
+        top: 375px;
+        font-size: 20px;
+    }
+    #section-two h1{
+        top: 325px;
+        font-size: 60px;
+    }
+    #section-two h2{
+        top: 325px;
+        font-size: 20px;
+    }
+    #section-three h1{
+        top: 325px;
+        font-size: 60px;
+    }
+    #section-three h2{
+        top: 325px;
+        font-size: 20px;
+    }
+    #section-four h1{
+        top: 325px;
+        font-size: 60px;
+    }
+    #section-four h2{
+        top: 325px;
+        font-size: 20px;
+    }
+    #products-section-one h1{
+        top: 325px;
+        font-size: 60px;
+    }
+
 }
