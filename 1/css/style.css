@@ -307,8 +307,9 @@ html,body{
 
         /*PRODUCTS*/
 #products-section-one h1{
-        position: relative;
+        position: fixed;
         top: 300px;
+        width: 100%;
 
         color: #ffffff;
 
@@ -319,6 +320,7 @@ html,body{
         margin-bottom: -10px;
 
         letter-spacing: 1px;
+        z-index: -2;
 }
 #products-section-one h2{
         position: relative;
