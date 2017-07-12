@@ -45,8 +45,8 @@ html,body{
   text-decoration: none;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
   background-color: #ffffff;
@@ -61,10 +61,10 @@ html,body{
   text-decoration: none;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: px;
-  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
   background-color: #ffffff;
   z-index: 2;
 
@@ -189,7 +189,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/stock_2.jpg");
+        background-image:url("../img/farm_1.png");
         background-repeat:;
         filter: contrast(90%);
         background-position: 50% 70%;
@@ -203,7 +203,7 @@ html,body{
         width: 100%;
         background-image: url("../img/stock_3_frosted.png");
         background-repeat:;
-        background-position: 50% 70%;
+        background-position: 95% 90%;
         background-attachment: fixed;
         z-index: -2;
 
@@ -307,7 +307,7 @@ html,body{
 
         /*PRODUCTS*/
 #products-section-one h1{
-        position: fixed;
+        position: relative;
         top: 300px;
         width: 100%;
 
@@ -345,7 +345,7 @@ html,body{
         position: relative;
         top: 125px;
         right: 20px;
-
+        margin-left: 50px;
 
         color: #303030;
 }
@@ -356,8 +356,48 @@ html,body{
         margin-left: 25%;
 
         border-color: #a4a4a4;
-        box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);
+        /*box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);*/
 
+}
+#threeCol{
+    position: relative;
+    top: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#threeCol div{
+    position: relative;
+    font-size: 13px;
+    font-weight: 100;
+    bottom: 0px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    transition: bottom .3s;
+    transition-delay: .1s;
+    transition-timing-function: ease;
+}
+#threeCol div:hover{
+    position: relative;
+    font-size: 13px;
+    bottom: 10px;
+}
+#threeCol hr{
+  position: relative;
+  top: 0px;
+
+  border-color: #8a8a8a;
+}
+#threeCol i{
+  position: relative;
+  bottom: 10px;
+}
+#threeCol h3{
+  font-size: 32px;
+  font-weight: 100;
 }
     /*Used for class based styling*/
 .sections h1{
@@ -492,12 +532,31 @@ html,body{
   #products-section-two h1, #products-section-two h2{
     top: 125px;
     right: 0px;
+    margin-left: 0px;
   }
   #products-section-two h1{
       font-size: 50px;
   }
+  #threeCol{
+    top: 200px;
+  }
+  #threeCol i{
+    position: relative;
+    top: 20px;
+  }
+  #threeCol hr{
+    visibility: hidden;
+  }
   #section-three h1, #section-three h2{
     top: 200px;
+  }
+  #products-section-two hr{
+          position: relative;
+          top: 125px;
+          width: 50%;
+          margin-left: 25%;
+
+          border-color: #a4a4a4;
   }
   #image-one, #image-two, #image-four{
     background-attachment: scroll;
@@ -514,6 +573,12 @@ html,body{
 }
     /*Used for footer HR and H2 adjustments in positioning*/
 @media only screen and (max-width: 600px) {
+    #products-image-two{
+      height: 1550px;
+    }
+    #products-section-two{
+      height: 1550px;
+    }
     #products-section-two hr{
             position: relative;
             top: 125px;
@@ -545,6 +610,9 @@ html,body{
             max-width: 1920px;
             height: 775px;
     }
+    #products-section-two h2{
+    margin-left: 0px;
+  }
 
     #image-one{
         height: 775px;
