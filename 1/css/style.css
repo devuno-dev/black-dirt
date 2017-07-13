@@ -12,6 +12,7 @@ html,body{
 #navBar{
         background-color: #ffffff;
         box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+        max-width: 1920px;
 
         padding-top: 10px;
         padding-bottom: 10px;
@@ -361,9 +362,8 @@ html,body{
 }
 #threeCol{
     position: relative;
-    top: 200px;
-    margin-left: 30px;
-    margin-right: 30px;
+    top: 250px;
+
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -421,7 +421,8 @@ html,body{
     /*Info bar seperations*/
 .sectionBar{
         position: relative;
-        width: 100%;
+        min-width: 100%;
+
         background-color: #ffffff;
         box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
@@ -433,7 +434,7 @@ html,body{
         padding-bottom: 50px;
 
         transition: background-color .1s, color .1s;
-        transition-timing-function: ease-in-out;
+        transition-timing-function: ease;
 }
 .sectionBar:hover{
     background-color: #d5d2d2;
@@ -519,7 +520,7 @@ html,body{
   margin-left: 10px;
 }
     /*Mobile adjustments for devices with a max-width of 750px*/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1280px) {
   #logo{
     right: 10px;
   }
@@ -536,6 +537,12 @@ html,body{
   }
   #products-section-two h1{
       font-size: 50px;
+  }
+  #products-image-two{
+    height: 850px;
+  }
+  #products-section-two{
+    height: 850px;
   }
   #threeCol{
     top: 200px;
@@ -611,8 +618,8 @@ html,body{
             height: 775px;
     }
     #products-section-two h2{
-    margin-left: 0px;
-  }
+        margin-left: 0px;
+    }
 
     #image-one{
         height: 775px;
@@ -670,4 +677,10 @@ html,body{
         font-size: 60px;
     }
 
+}
+    /*Used to rescale the sectionBar links*/
+@media only screen and (min-width: 1920px){
+    .sectionBar{
+        min-width: 1920px;
+    }
 }
