@@ -120,14 +120,17 @@ html,body{
     /*Landing Section Styling*/
 #section-one,
 #products-section-one,
+#about-section-one,
 #section-two,
 #products-section-two,
+#about-section-two,
 #section-three,
 #section-four{
         position: relative;
         max-width: 1920px;
         height: 650px;
 }
+
 #products-section-two{
     box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
 }
@@ -359,6 +362,75 @@ html,body{
         /*box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);*/
 
 }
+        /*ABOUT*/
+#about-image-two{
+        position: absolute;
+        top: 0px;
+        height: 1250px;
+        width: 100%;
+        background-image: url("../img/stock_3_frosted.png");
+        background-repeat:;
+        background-position: 95% 90%;
+        background-attachment: fixed;
+        z-index: -2;
+
+}
+
+#about-section-one h1{
+        position: relative;
+        top: 300px;
+        width: 100%;
+
+        color: #ffffff;
+
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: -10px;
+
+        letter-spacing: 1px;
+        z-index: -2;
+}
+#about-section-one h2{
+        position: relative;
+        top: 300px;
+
+        color: #ffffff;
+}
+#about-section-two h1{
+        position: relative;
+        top: 75px;
+        right: 20px;
+
+        color: #303030;
+
+        font-size: 70px;
+        font-family: sans-serif;
+        font-weight: 700;
+
+        letter-spacing: 1px;
+}
+#about-section-two h2{
+        position: relative;
+        top: 125px;
+        right: 20px;
+        margin-left: 50px;
+
+        color: #303030;
+}
+#about-section-two hr{
+        position: relative;
+        top: 100px;
+        width: 50%;
+        margin-left: 25%;
+
+        border-color: #a4a4a4;
+        /*box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);*/
+
+}
+
+    /*Used in Products & About*/
 #threeCol{
     position: relative;
     top: 250px;
@@ -398,6 +470,57 @@ html,body{
   font-size: 32px;
   font-weight: 100;
 }
+
+
+    /*Used in About*/
+#twoCol{
+    position: relative;
+    top: 250px;
+    height: 350px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background-color: #d1d1d1;
+
+    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+}
+#twoCol div{
+    position: relative;
+    font-size: 13px;
+    font-weight: 100;
+    bottom: 0px;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    transition: bottom .3s;
+    transition-delay: .1s;
+    transition-timing-function: ease;
+}
+#twoCol hr{
+  position: relative;
+  top: 0px;
+
+  border-color: #8a8a8a;
+}
+#staffTwo h3{
+    position: relative;
+  font-size: 42px;
+  font-weight: 800;
+
+}
+#staffTwo h4{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 100;
+
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+
     /*Used for class based styling*/
 .sections h1{
         font-size: 40px;
@@ -520,12 +643,15 @@ html,body{
 }
     /*Mobile adjustments for devices with a max-width of 750px*/
 @media only screen and (max-width: 1280px) {
+    /*Navigation Bar*/
   #logo{
     right: 10px;
   }
   .navTabs{
     right: 10px;
   }
+
+ /*Sections*/
   #section-two h1, #section-two h2{
     top: 225px;
   }
@@ -534,7 +660,15 @@ html,body{
     right: 0px;
     margin-left: 0px;
   }
+  #about-section-two h1, #about-section-two h2{
+    top: 125px;
+    right: 0px;
+    margin-left: 0px;
+  }
   #products-section-two h1{
+      font-size: 50px;
+  }
+  #about-section-two h1{
       font-size: 50px;
   }
   #products-image-two{
@@ -543,6 +677,13 @@ html,body{
   #products-section-two{
     height: 850px;
   }
+  #about-image-two{
+    height: 1400px;
+  }
+  #about-section-two{
+    height: 1400px;
+  }
+    /*Applied to Column settings*/
   #threeCol{
     top: 200px;
   }
@@ -553,6 +694,17 @@ html,body{
   #threeCol hr{
     visibility: hidden;
   }
+  #twoCol{
+    top: 200px;
+  }
+  #twoCol hr{
+    visibility: hidden;
+  }
+  #twoCol h4{
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+
   #section-three h1, #section-three h2{
     top: 200px;
   }
@@ -564,27 +716,48 @@ html,body{
 
           border-color: #a4a4a4;
   }
+  #about-section-two hr{
+          position: relative;
+          top: 125px;
+          width: 50%;
+          margin-left: 25%;
+
+          border-color: #a4a4a4;
+  }
   #image-one, #image-two, #image-four{
     background-attachment: scroll;
   }
+
+  /*Footer*/
   #footerBar h1{
     left: 10px;
   }
   #footerBar h2{
     margin-left: 25%;
   }
+
+  /*Social Bar*/
   #socialBar{
     right: 0px;
   }
 }
     /*Used for footer HR and H2 adjustments in positioning*/
 @media only screen and (max-width: 600px) {
+    /*Sections Only*/
     #products-image-two{
       height: 1550px;
     }
     #products-section-two{
       height: 1550px;
     }
+    #about-section-two{
+      height: 2400px;
+    }
+    #about-image-two{
+      height: 2400px;
+    }
+
+    /*Section Styling*/
     #products-section-two hr{
             position: relative;
             top: 125px;
@@ -593,6 +766,28 @@ html,body{
 
             border-color: #a4a4a4;
     }
+    #about-section-two hr{
+            position: relative;
+            top: 125px;
+            width: 50%;
+            margin-left: 0%;
+
+            border-color: #a4a4a4;
+    }
+
+    /*Column Styling*/
+    #twoCol{
+        height: 500px;
+    }
+    #twoCol h3{
+        top: 20px;
+    }
+    #twoCol h4{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*Footer & Social Bar*/
     #footerBar h2{
         margin-left: 10%;
     }
@@ -606,8 +801,10 @@ html,body{
 }
     /*Used to expand height of sections on wider resolutions*/
 @media only screen and (min-width: 1280px){
+    /*Sections & Images only*/
     #section-one,
     #products-section-one,
+    #about-section-one,
     #section-two,
     #products-section-two,
     #section-three,
@@ -616,10 +813,6 @@ html,body{
             max-width: 1920px;
             height: 775px;
     }
-    #products-section-two h2{
-        margin-left: 0px;
-    }
-
     #image-one{
         height: 775px;
     }
@@ -638,7 +831,11 @@ html,body{
     #products-image-two{
         height: 775px;
     }
+    #about-image-two{
+        height: 1300px;
+    }
 
+    /*h1 & h2 styling*/
     #section-one h1{
         top: 375px;
         font-size: 60px;
@@ -674,6 +871,21 @@ html,body{
     #products-section-one h1{
         top: 325px;
         font-size: 60px;
+    }
+    #about-section-one h1{
+        top: 325px;
+        font-size: 60px;
+    }
+    #products-section-two h2{
+        margin-left: 0px;
+    }
+    #about-section-two{
+        position: relative;
+        max-width: 1920px;
+        height: 1300px;
+    }
+    #about-section-two h2{
+        margin-left: 0px;
     }
 
 }
