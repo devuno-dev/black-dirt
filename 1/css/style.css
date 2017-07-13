@@ -17,14 +17,13 @@ html,body{
         padding-top: 10px;
         padding-bottom: 10px;
 
-        position: fixed;
+        position: relative;
         z-index: 2;
 }
 
 #logo{
         position: relative;
         right: 0px;
-
 
         font-size: 25px;
         font-family: sans-serif;
