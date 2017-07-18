@@ -11,7 +11,8 @@ html,body{
 
 #navBar{
         background-color: #ffffff;
-        box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
         max-width: 1920px;
 
         padding-top: 10px;
@@ -52,6 +53,8 @@ html,body{
   background-color: #ffffff;
   z-index: 2;
 
+  -webkit-transition: background-color .2s;
+
   transition: background-color .2s;
 }
 #dropDown:hover{
@@ -67,6 +70,8 @@ html,body{
   margin-bottom: 15px;
   background-color: #ffffff;
   z-index: 2;
+
+  -webkit-transition: background-color .2s;
 
   transition: background-color .2s;
 }
@@ -99,6 +104,9 @@ html,body{
 
         color: #000000;
         background-color: #ffffff;
+
+        -webkit-transition:
+                background-color .1s;
 
         transition:
                 background-color .1s;
@@ -134,7 +142,8 @@ html,body{
 }
 
 #products-section-two{
-    box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
+    -webkit-box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
+            box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
 }
 
     /*Background image styling id's*/
@@ -145,7 +154,8 @@ html,body{
         width: 100%;
         background-image:url("../img/stock_2.jpg");
         background-repeat:;
-        filter: contrast(90%);
+        -webkit-filter: contrast(90%);
+                filter: contrast(90%);
         background-position: 50% 70%;
         background-attachment: fixed;
         z-index: -3;
@@ -157,7 +167,8 @@ html,body{
         width: 100%;
         background-image: url("../img/stock_3.jpg");
         background-repeat:;
-        filter: contrast(80%) brightness(80%);
+        -webkit-filter: contrast(80%) brightness(80%);
+                filter: contrast(80%) brightness(80%);
         background-position: 70% 70%;
         background-attachment: fixed;
         z-index: -2;
@@ -172,7 +183,8 @@ html,body{
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 5%;
-        filter: contrast(90%) brightness(80%);
+        -webkit-filter: contrast(90%) brightness(80%);
+                filter: contrast(90%) brightness(80%);
         background-attachment: scroll;
         z-index: -2;
 }
@@ -185,7 +197,8 @@ html,body{
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 5%;
-        filter: contrast(90%) brightness(80%);
+        -webkit-filter: contrast(90%) brightness(80%);
+                filter: contrast(90%) brightness(80%);
         background-attachment: fixed;
         z-index: -1;
 }
@@ -196,7 +209,8 @@ html,body{
         width: 100%;
         background-image:url("../img/farm_1.png");
         background-repeat:;
-        filter: contrast(90%);
+        -webkit-filter: contrast(90%);
+                filter: contrast(90%);
         background-position: 50% 70%;
         background-attachment: fixed;
         z-index: -3;
@@ -222,7 +236,8 @@ html,body{
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 5%;
-        filter: contrast(90%) brightness(80%);
+        -webkit-filter: contrast(90%) brightness(80%);
+                filter: contrast(90%) brightness(80%);
         background-attachment: scroll;
         z-index: -2;
 }
@@ -233,7 +248,8 @@ html,body{
         width: 100%;
         background-image: url("../img/stock_3.jpg");
         background-repeat:;
-        filter: contrast(80%) brightness(80%);
+        -webkit-filter: contrast(80%) brightness(80%);
+                filter: contrast(80%) brightness(80%);
         background-position: 70% 70%;
         background-attachment: scroll;
         z-index: -2;
@@ -524,9 +540,13 @@ html,body{
     padding-top: 50px;
     padding-bottom: 50px;
 
+    -webkit-transition: bottom .3s;
+
     transition: bottom .3s;
-    transition-delay: .1s;
-    transition-timing-function: ease;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
 }
 #threeCol div:hover{
     position: relative;
@@ -559,7 +579,9 @@ html,body{
 
     background-color: #d1d1d1;
 
-    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+
+            box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 }
 #twoCol div{
     position: relative;
@@ -570,9 +592,13 @@ html,body{
     padding-top: 50px;
     padding-bottom: 50px;
 
+    -webkit-transition: bottom .3s;
+
     transition: bottom .3s;
-    transition-delay: .1s;
-    transition-timing-function: ease;
+    -webkit-transition-delay: .1s;
+            transition-delay: .1s;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
 }
 #twoCol hr{
   position: relative;
@@ -609,10 +635,14 @@ html,body{
     border-radius: 3px;
 
     background-color: #ffffff;
-    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+            box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+
+    -webkit-transition: .1s;
 
     transition: .1s;
-    transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
 }
 .contactButton:hover{
     padding-left: 22px;
@@ -622,7 +652,9 @@ html,body{
 
     background-color: #d5d2d2;
 
-    box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
+    -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
+
+            box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
 }
 .contactButton:active{
     padding-left: 17px;
@@ -633,7 +665,9 @@ html,body{
     background-color: #555555;
     color: #ffffff;
 
-    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
+
+            box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
 }
 #contactButtonAbout{
     position: relative;
@@ -653,10 +687,14 @@ html,body{
     border-radius: 3px;
 
     background-color: #ffffff;
-    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+            box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+
+    -webkit-transition: .1s;
 
     transition: .1s;
-    transition-timing-function: ease;
+    -webkit-transition-timing-function: ease;
+            transition-timing-function: ease;
 }
 .buyButton:hover{
     padding-left: 22px;
@@ -666,7 +704,9 @@ html,body{
 
     background-color: #d5d2d2;
 
-    box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
+    -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
+
+            box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
 }
 .buyButton:active{
     padding-left: 17px;
@@ -677,7 +717,9 @@ html,body{
     background-color: #555555;
     color: #ffffff;
 
-    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
+
+            box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
 }
 #buyNow1{
     position: relative;
@@ -715,7 +757,8 @@ html,body{
         min-width: 100%;
 
         background-color: #ffffff;
-        box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         font-size: 25px;
         font-family: sans-serif;
@@ -724,8 +767,11 @@ html,body{
         padding-top: 50px;
         padding-bottom: 50px;
 
+        -webkit-transition: background-color .1s, color .1s;
+
         transition: background-color .1s, color .1s;
-        transition-timing-function: ease;
+        -webkit-transition-timing-function: ease;
+                transition-timing-function: ease;
 }
 .sectionBar:hover{
     background-color: #d5d2d2;
@@ -796,12 +842,21 @@ html,body{
   margin-top: 10px;
   margin-bottom: 10px;
 
-  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+
+          filter: brightness(100%);
+
+  -webkit-transition: -webkit-filter .2s;
+
+  transition: -webkit-filter .2s;
 
   transition: filter .2s;
+
+  transition: filter .2s, -webkit-filter .2s;
 }
 .socialIcon img:hover{
-  filter: brightness(60%);
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
 }
 
 #devunoLogo img{
