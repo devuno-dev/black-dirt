@@ -125,7 +125,9 @@ html,body{
 #products-section-two,
 #about-section-two,
 #section-three,
-#section-four{
+#products-section-three,
+#section-four,
+#products-section-four{
         position: relative;
         max-width: 1920px;
         height: 650px;
@@ -208,6 +210,32 @@ html,body{
         background-repeat:;
         background-position: 95% 90%;
         background-attachment: fixed;
+        z-index: -2;
+
+}
+#products-image-three{
+        position: absolute;
+        top: 0px;
+        height: 650px;
+        width: 100%;
+        background-image: url("../img/stock_4.jpg");
+        background-repeat:repeat;
+        background-size: cover;
+        background-position: 10% 5%;
+        filter: contrast(90%) brightness(80%);
+        background-attachment: scroll;
+        z-index: -2;
+}
+#products-image-four{
+        position: absolute;
+        top: 0px;
+        height: 650px;
+        width: 100%;
+        background-image: url("../img/stock_3.jpg");
+        background-repeat:;
+        filter: contrast(80%) brightness(80%);
+        background-position: 70% 70%;
+        background-attachment: scroll;
         z-index: -2;
 
 }
@@ -362,6 +390,54 @@ html,body{
         border-color: #a4a4a4;
         /*box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);*/
 
+}
+#products-section-three h1{
+        position: relative;
+        top: 240px;
+
+        color: #ffffff;
+
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+
+        margin-left: 15%;
+
+        letter-spacing: 1px;
+}
+#products-section-three h2{
+        position: relative;
+        top: 240px;
+
+        margin-left: 15%;
+
+        padding-right: 50%;
+
+        color: #ffffff;
+}
+#products-section-four h1{
+        position: relative;
+        top: 260px;
+
+        color: #ffffff;
+
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+
+        margin-right: 15%;
+
+        letter-spacing: 1px;
+}
+#products-section-four h2{
+        position: relative;
+        top: 260px;
+
+        margin-right: 15%;
+
+        padding-left: 50%;
+
+        color: #ffffff;
 }
         /*ABOUT*/
 #about-image-two{
@@ -564,6 +640,56 @@ html,body{
     top: 130px;
 }
 
+.buyButton{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 100;
+
+    border-radius: 3px;
+
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
+
+    transition: .1s;
+    transition-timing-function: ease;
+}
+.buyButton:hover{
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+    background-color: #d5d2d2;
+
+    box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
+}
+.buyButton:active{
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    background-color: #555555;
+    color: #ffffff;
+
+    box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.25);
+}
+#buyNow1{
+    position: relative;
+    top: 240px;
+    margin-left: 15%;
+}
+#buyNow2{
+    position: relative;
+    top: 260px;
+    margin-right: 15%;
+}
+
     /*Used for class based styling*/
 .sections h1{
         font-size: 40px;
@@ -684,7 +810,7 @@ html,body{
   width: 175px;
   margin-left: 10px;
 }
-    /*Mobile adjustments for devices with a max-width of 750px*/
+    /*Mobile adjustments for devices with a max-width of 1280px*/
 @media only screen and (max-width: 1280px) {
     /*Navigation Bar*/
   #logo{
@@ -722,6 +848,30 @@ html,body{
   }
   #products-section-two{
     height: 850px;
+  }
+  #products-section-three h1{
+          top: 150px;
+          margin-left: 10%;
+  }
+  #products-section-three h2{
+          top: 150px;
+          margin-left: 10%;
+  }
+  #products-section-four h1{
+          top: 150px;
+          right: 0px;
+  }
+  #products-section-four h2{
+          top: 150px;
+          right: 0px;
+  }
+  #buyNow1{
+      top: 150px;
+      margin-left: 10%;
+  }
+  #buyNow2{
+      top: 150px;
+      margin-right: 15%;
   }
   #about-image-two{
     height: 1400px;
@@ -818,6 +968,31 @@ html,body{
     #products-section-two h2{
         margin-bottom: 0px;
     }
+    #products-section-three h1{
+            top: 100px;
+            margin-left: 10%;
+    }
+    #products-section-three h2{
+            top: 100px;
+            margin-left: 10%;
+    }
+    #products-section-four h1{
+            top: 120px;
+            right: 25px;
+    }
+    #products-section-four h2{
+            top: 120px;
+            right: 25px;
+    }
+    #buyNow1{
+        top: 120px;
+        margin-left: 10%;
+    }
+    #buyNow2{
+        top: 120px;
+        margin-right: 10%;
+    }
+
     #about-section-two hr{
             position: relative;
             top: 125px;
