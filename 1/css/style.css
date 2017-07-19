@@ -643,6 +643,8 @@ html,body{
 #threeCol hr{
   position: relative;
   top: 0px;
+  width: 50%;
+  margin-left: 25%;
 
   border-color: #8a8a8a;
 }
