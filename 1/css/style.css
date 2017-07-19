@@ -132,6 +132,7 @@ html,body{
 #section-two,
 #products-section-two,
 #about-section-two,
+#contact-section-two,
 #section-three,
 #products-section-three,
 #section-four,
@@ -149,6 +150,16 @@ html,body{
     -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.30);
             box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.30);
 }
+
+#contact-section-one,
+#contact-section-two{
+  position: relative;
+  max-width: 1920px;
+  height: 375px;
+}
+
+
+
 
 
     /*Background image styling id's*/
@@ -257,6 +268,32 @@ html,body{
                 filter: contrast(80%) brightness(80%);
         background-position: 70% 70%;
         background-attachment: scroll;
+        z-index: -2;
+
+}
+
+#contact-image-one{
+        position: absolute;
+        top: 0px;
+        height: 385px;
+        width: 100%;
+        background-image:url("../img/stock_2.jpg");
+        background-repeat:;
+        -webkit-filter: contrast(90%);
+                filter: contrast(90%);
+        background-position: 50% 70%;
+        background-attachment: fixed;
+        z-index: -3;
+}
+#contact-image-two{
+        position: absolute;
+        top: 0px;
+        height: 375px;
+        width: 100%;
+        background-image: url("../img/stock_3_frosted.png");
+        background-repeat:;
+        background-position: 95% 90%;
+        background-attachment: fixed;
         z-index: -2;
 
 }
@@ -526,6 +563,51 @@ html,body{
         border-color: #a4a4a4;
         /*box-shadow: 0px 3px 20px 2px rgba(22, 22, 22, 0.10);*/
 
+}
+
+        /*CONTACT*/
+#contact-section-one h1{
+        position: relative;
+        top: 150px;
+
+        color: #ffffff;
+
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: -10px;
+
+        letter-spacing: 1px;
+}
+#contact-section-one h2{
+        position: relative;
+        top: 150px;
+
+        color: #ffffff;
+}
+
+#contact-section-two h1{
+        position: relative;
+        top: 25px;
+        right: 20px;
+
+        color: #303030;
+
+        font-size: 70px;
+        font-family: sans-serif;
+        font-weight: 700;
+
+        letter-spacing: 1px;
+}
+#contact-section-two h2{
+        position: relative;
+        top: 25px;
+        margin-bottom: -10px;
+
+        font-weight: 100;
+
+        color: #303030;
 }
 
     /*Used in Products & About*/
@@ -927,6 +1009,9 @@ html,body{
           top: 150px;
           right: 0px;
   }
+  #contact-section-two h2{
+    margin-bottom: -100px;
+  }
   #buyNow1{
       top: 150px;
       margin-left: 10%;
@@ -1014,6 +1099,12 @@ html,body{
     #about-image-two{
       height: 2400px;
     }
+    #contact-section-two{
+      height: 1000px;
+    }
+    #contact-image-two{
+      height: 1000px;
+    }
 
     /*Section Styling*/
     #products-section-two hr{
@@ -1025,7 +1116,7 @@ html,body{
             border-color: #a4a4a4;
     }
     #products-section-two h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     #products-section-two h2{
         margin-bottom: 0px;
@@ -1045,6 +1136,8 @@ html,body{
     #products-section-four h2{
             top: 120px;
             right: 25px;
+    }
+    #contact-section-two h2{
     }
     #buyNow1{
         top: 120px;
@@ -1176,6 +1269,9 @@ html,body{
     }
     #about-section-two h2{
         margin-left: 0px;
+    }
+    #contact-section-one h1{
+        font-size: 60px;
     }
 
 }
