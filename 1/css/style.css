@@ -27,7 +27,6 @@ html,body{
         right: 0px;
 
         font-size: 25px;
-        font-family: sans-serif;
         font-weight: 100;
         text-decoration: none;
 
@@ -96,7 +95,7 @@ html,body{
         right: 0px;
 
         font-size: 15px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 100;
         text-decoration: none;
 
@@ -312,8 +311,8 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
-        font-weight: 700;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 800;
         margin-top: 0px;
         margin-bottom: -10px;
 
@@ -323,6 +322,8 @@ html,body{
         position: relative;
         top: 300px;
 
+        font-family: 'Cabin', sans-serif;
+        font-weight: 100;
         color: #ffffff;
 }
 #section-two h1{
@@ -333,7 +334,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-right: 20%;
@@ -344,6 +345,8 @@ html,body{
         position: relative;
         top: 275px;
         right: 20px;
+
+        font-family: 'Cabin', sans-serif;
 
         margin-right: 20%;
 
@@ -358,7 +361,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-left: 15%;
@@ -368,6 +371,8 @@ html,body{
 #section-three h2{
         position: relative;
         top: 300px;
+
+        font-family: 'Cabin', sans-serif;
 
         margin-left: 15%;
 
@@ -383,7 +388,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-right: 20%;
@@ -394,6 +399,8 @@ html,body{
         position: relative;
         top: 300px;
         right: 20px;
+
+        font-family: 'Cabin', sans-serif;
 
         margin-right: 20%;
 
@@ -409,7 +416,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -431,7 +438,7 @@ html,body{
         color: #303030;
 
         font-size: 70px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         letter-spacing: 1px;
@@ -462,7 +469,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-left: 15%;
@@ -486,7 +493,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-right: 15%;
@@ -542,7 +549,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -564,7 +571,7 @@ html,body{
         color: #303030;
 
         font-size: 70px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         letter-spacing: 1px;
@@ -602,7 +609,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -624,7 +631,7 @@ html,body{
         color: #303030;
 
         font-size: 70px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         letter-spacing: 1px;
@@ -649,7 +656,8 @@ html,body{
 }
 #threeCol div{
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
+    font-family: 'Cabin', sans-serif;
     font-weight: 100;
     bottom: 0px;
 
@@ -666,7 +674,7 @@ html,body{
 }
 #threeCol div:hover{
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
     bottom: 10px;
 }
 #threeCol hr{
@@ -683,7 +691,8 @@ html,body{
 }
 #threeCol h3{
   font-size: 32px;
-  font-weight: 100;
+  font-weight: 500;
+  font-family: 'Cabin', sans-serif;
 }
     /*Used in About*/
 #twoCol{
@@ -729,6 +738,7 @@ html,body{
 }
 #staffTwo h3{
     position: relative;
+    font-family: 'Cabin', sans-serif;
     font-size: 42px;
   font-weight: 600;
 
@@ -737,6 +747,7 @@ html,body{
     position: absolute;
     font-size: 16px;
     font-weight: 100;
+    font-family: 'Cabin', sans-serif;
 
     margin-right: 175px;
     margin-left: 175px;
@@ -752,6 +763,7 @@ html,body{
     text-decoration: none;
     font-size: 15px;
     font-weight: 100;
+    font-family: 'Cabin', sans-serif;
 
     border-radius: 3px;
 
@@ -796,14 +808,15 @@ html,body{
 }
 
 .buyButton{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
+    font-family: 'Cabin', sans-serif;
 
     border-radius: 3px;
 
@@ -818,11 +831,6 @@ html,body{
             transition-timing-function: ease;
 }
 .buyButton:hover{
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-
     background-color: #d5d2d2;
 
     -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
@@ -830,11 +838,6 @@ html,body{
             box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
 }
 .buyButton:active{
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-
     background-color: #555555;
     color: #ffffff;
 
@@ -856,7 +859,7 @@ html,body{
     /*Used for class based styling*/
 .sections h1{
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -868,7 +871,7 @@ html,body{
         color: #ffffff;
 
         font-size: 20px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 100;
         margin-top: 10px;
 }
@@ -882,7 +885,7 @@ html,body{
                 box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         font-size: 30px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 100;
 
         padding-top: 50px;
@@ -935,7 +938,7 @@ html,body{
   font-size: 50px;
   font-weight: 100;
 }
-#footerBar img{
+#footerBar h1 img{
     width: 250px;
 }
 #footerBar h2{
@@ -959,16 +962,30 @@ html,body{
 #socialBar{
   position: relative;
   max-width: 1920px;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
 }
 #socialIcon{
-    position: relative;
+    position: absolute;
     width: 500px;
 }
-#socialIcon img{
-    background-color: rgb(215, 186, 36);
+#socialBar img{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-    position: absolute;
-    width: 100px;
+    width: 30px;
+
+    opacity: 1;
+
+    transition: .2s;
+}
+#socialBar img:hover{
+    opacity: .5;
+
 }
 
 #devunoLogo img{
