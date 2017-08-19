@@ -488,7 +488,7 @@ html,body{
 }
 #products-section-four h1{
         position: relative;
-        top: 260px;
+        top: 250px;
 
         color: #ffffff;
 
@@ -506,9 +506,55 @@ html,body{
 
         margin-right: 15%;
 
-        padding-left: 50%;
+        padding-left: 30%;
 
         color: #ffffff;
+}
+#contentSEC{
+  position: relative;
+  bottom: 0px;
+
+  height: 100%;
+}
+#videoOverlay{
+  position: relative;
+  width: 100%;
+  height: 65%;
+
+  margin-left: 5%;
+
+  top: 18%;
+
+  z-index: 2;
+}
+#videoOverlay i{
+  position: absolute;
+  left: 45%;
+
+  top: 45%;
+
+  color: rgba(238, 238, 238, 0.9);
+
+  transition: .4s;
+}
+#productVideo{
+  position: relative;
+
+  width: 50%;
+  height: 100%;
+}
+#productVideo video{
+  position: absolute;
+  width: 100%;
+  height: 65%;
+
+  margin-left: 5%;
+
+  top: 18%;
+
+  filter: brightness(100%);
+
+  transition: .4s;
 }
         /*ABOUT*/
 #staffOne{
@@ -1042,11 +1088,11 @@ html,body{
           margin-left: 10%;
   }
   #products-section-four h1{
-          top: 150px;
+          top: 250px;
           right: 0px;
   }
   #products-section-four h2{
-          top: 150px;
+          top: 250px;
           right: 0px;
   }
   #contact-section-two h2{
@@ -1057,7 +1103,7 @@ html,body{
       margin-left: 10%;
   }
   #buyNow2{
-      top: 150px;
+      top: 250px;
       margin-right: 15%;
   }
   #about-image-two{
@@ -1135,6 +1181,7 @@ html,body{
   #socialBar{
     right: 0px;
   }
+
 }
     /*Used for footer HR and H2 adjustments in positioning*/
 @media only screen and (max-width: 600px) {
@@ -1185,12 +1232,15 @@ html,body{
             margin-left: 10%;
     }
     #products-section-four h1{
-            top: 120px;
+            top: 175px;
             right: 25px;
     }
     #products-section-four h2{
-            top: 120px;
+            top: 175px;
             right: 25px;
+    }
+    #productVideo video{
+      width: 450px;
     }
     #contact-section-two h2{
     }
@@ -1205,7 +1255,7 @@ html,body{
         margin-left: 10%;
     }
     #buyNow2{
-        top: 120px;
+        top: 185px;
         margin-right: 10%;
     }
 
@@ -1241,6 +1291,11 @@ html,body{
     #socialBar{
         right: 30px;
     }
+    #contentSEC{
+      position: relative;
+      top: 175px;
+    }
+
 }
     /*Used to expand height of sections on wider resolutions*/
 @media only screen and (min-width: 1280px){

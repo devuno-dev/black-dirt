@@ -106,14 +106,19 @@
                     <div id="products-image-three" class="w3-container w3-mobile"></div>
             </section>
 
-            <section id="products-section-four" class="sections w3-content">
+            <section id="products-section-four" class="sections w3-hide-small w3-hide-medium w3-content">
 
                 <!-- Space for images & info regarding the product -->
-                    <h1 class="w3-right-align w3-mobile">VitaNTerra</h1>
-                    <h2 class="w3-right-align w3-mobile">An application of natural, beneficial micro-organisms to stimulate plant yield, protect plants from disease, and incorporate nutrition from the soil.</h2>
-                    <a href="#" id="buyNow2" class="w3-right buyButton">Buy Now</a>
+                    <div id="productVideo" class="w3-left w3-hide-small w3-col s6 w3-mobile">
+                      <div id="videoOverlay" onclick="playPause()" class=""><i id="pausePlayArrow" class="w3-xxxlarge w3-center material-icons">play_arrow</i></div>
+                      <video id="fulvicVideo" src="img/vd/Fulvic Bloom - Consumer.mp4"></video>
+                    </div>
+                    <div id="contentSEC" class="w3-right w3-col s6 w3-mobile">
+                      <h1 class="w3-right-align w3-mobile">Video</h1>
+                      <h2 class="w3-right-align w3-mobile">An application of natural, beneficial micro-organisms to stimulate plant yield, protect plants from disease, and incorporate nutrition from the soil.</h2>
+                      <a href="#" id="buyNow2" class="w3-right buyButton">Buy Now</a>
+                    </div>
                     <div id="products-image-four" class="w3-container w3-mobile"></div>
-
             </section>
 
             <!-- Footer -->
@@ -139,4 +144,22 @@
                 </section>
 
     </body>
+
+    <script type="text/javascript" id="playPauseButton">
+      var myVideo = document.getElementById('fulvicVideo');
+
+      function playPause(){
+        if (myVideo.paused) {
+          myVideo.play();
+          document.getElementById('pausePlayArrow').style.color = 'rgba(238, 238, 238, 0.0)';
+          document.getElementById('fulvicVideo').style.filter = 'brightness(100%)';
+        }
+        else{
+          myVideo.pause();
+          document.getElementById('pausePlayArrow').style.color = 'rgba(238, 238, 238, 0.9)';
+          document.getElementById('fulvicVideo').style.filter = 'brightness(50%)';
+        }
+      }
+
+    </script>
 </html>
