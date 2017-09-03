@@ -1,3 +1,6 @@
+html{
+    background-color: #eeeeee;
+}
 html,body{
         width: 100%;
         margin: 0px;
@@ -11,8 +14,6 @@ html,body{
 
 #navBar{
         background-color: #ffffff;
-        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
-                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
         max-width: 1920px;
 
         padding-top: 10px;
@@ -27,14 +28,13 @@ html,body{
         right: 0px;
 
         font-size: 25px;
-        font-family: sans-serif;
         font-weight: 100;
         text-decoration: none;
 
         margin-left: 10px;
         margin-right: 30px;
 
-        width: 400px;
+        width: 100%;
 
         padding-left: 40px;
         padding-right: 40px;
@@ -96,7 +96,7 @@ html,body{
         right: 0px;
 
         font-size: 15px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 100;
         text-decoration: none;
 
@@ -148,15 +148,6 @@ html,body{
         height: 650px;
 }
 
-#products-section-two{
-    -webkit-box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
-            box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
-}
-#products-section-three{
-    -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.30);
-            box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.30);
-}
-
 #contact-section-one,
 #contact-section-two{
   position: relative;
@@ -174,12 +165,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/stock_2.jpg");
-        background-repeat:;
+        background-image:url("../img/backgrounds/farm-1.png");
+        background-repeat:cover;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
-        background-position: 50% 70%;
-        background-attachment: fixed;
+        background-position: 90% 50%;
         z-index: -3;
 }
 #image-two{
@@ -187,12 +177,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_3.jpg");
+        background-image: url("../img/backgrounds/farm-3.png");
         background-repeat:;
         -webkit-filter: contrast(80%) brightness(80%);
                 filter: contrast(80%) brightness(80%);
-        background-position: 70% 70%;
-        background-attachment: fixed;
+        background-position: 80% 70%;
         z-index: -2;
 
 }
@@ -201,13 +190,12 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_4.jpg");
+        background-image: url("../img/backgrounds/products-1.png");
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 5%;
         -webkit-filter: contrast(90%) brightness(80%);
                 filter: contrast(90%) brightness(80%);
-        background-attachment: scroll;
         z-index: -2;
 }
 #image-four{
@@ -215,13 +203,12 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_5.jpg");
+        background-image: url("../img/backgrounds/farm-2.png");
         background-repeat:repeat;
         background-size: cover;
-        background-position: 10% 5%;
+        background-position: 20% 40%;
         -webkit-filter: contrast(90%) brightness(80%);
                 filter: contrast(90%) brightness(80%);
-        background-attachment: fixed;
         z-index: -1;
 }
 #products-image-one{
@@ -229,12 +216,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/farm_1.png");
+        background-image:url("../img/backgrounds/farm-4-blur.png");
         background-repeat:;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
-        background-position: 50% 70%;
-        background-attachment: fixed;
+        background-position: 80% 40%;
         z-index: -3;
 }
 #products-image-two{
@@ -254,12 +240,12 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_4.jpg");
+        background-image: url("../img/backgrounds/products-2.png");
         background-repeat:repeat;
         background-size: cover;
-        background-position: 10% 5%;
-        -webkit-filter: contrast(90%) brightness(80%);
-                filter: contrast(90%) brightness(80%);
+        background-position: 10% 30%;
+        -webkit-filter: contrast(80%) brightness(70%);
+                filter: contrast(80%) brightness(70%);
         background-attachment: scroll;
         z-index: -2;
 }
@@ -268,11 +254,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_3.jpg");
+        background-image: url("../img/backgrounds/farm-3.png");
         background-repeat:;
         -webkit-filter: contrast(80%) brightness(80%);
                 filter: contrast(80%) brightness(80%);
-        background-position: 70% 70%;
+        background-position: 70% 30%;
         background-attachment: scroll;
         z-index: -2;
 
@@ -283,12 +269,11 @@ html,body{
         top: 0px;
         height: 385px;
         width: 100%;
-        background-image:url("../img/stock_2.jpg");
+        background-image:url("../img/backgrounds/farm-4-blur.png");
         background-repeat:;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
-        background-position: 50% 70%;
-        background-attachment: fixed;
+        background-position: 50% 50%;
         z-index: -3;
 }
 #contact-image-two{
@@ -299,7 +284,6 @@ html,body{
         background-image: url("../img/stock_3_frosted.png");
         background-repeat:;
         background-position: 95% 90%;
-        background-attachment: fixed;
         z-index: -2;
 
 }
@@ -312,8 +296,8 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
-        font-weight: 700;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 800;
         margin-top: 0px;
         margin-bottom: -10px;
 
@@ -323,6 +307,8 @@ html,body{
         position: relative;
         top: 300px;
 
+        font-family: 'Cabin', sans-serif;
+        font-weight: 100;
         color: #ffffff;
 }
 #section-two h1{
@@ -333,7 +319,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-right: 20%;
@@ -344,6 +330,8 @@ html,body{
         position: relative;
         top: 275px;
         right: 20px;
+
+        font-family: 'Cabin', sans-serif;
 
         margin-right: 20%;
 
@@ -358,7 +346,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-left: 15%;
@@ -368,6 +356,8 @@ html,body{
 #section-three h2{
         position: relative;
         top: 300px;
+
+        font-family: 'Cabin', sans-serif;
 
         margin-left: 15%;
 
@@ -383,7 +373,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-right: 20%;
@@ -394,6 +384,8 @@ html,body{
         position: relative;
         top: 300px;
         right: 20px;
+
+        font-family: 'Cabin', sans-serif;
 
         margin-right: 20%;
 
@@ -409,7 +401,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -431,7 +423,7 @@ html,body{
         color: #303030;
 
         font-size: 70px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         letter-spacing: 1px;
@@ -462,7 +454,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-left: 15%;
@@ -481,12 +473,12 @@ html,body{
 }
 #products-section-four h1{
         position: relative;
-        top: 260px;
+        top: 250px;
 
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         margin-right: 15%;
@@ -499,13 +491,60 @@ html,body{
 
         margin-right: 15%;
 
-        padding-left: 50%;
+        padding-left: 30%;
 
         color: #ffffff;
+}
+#contentSEC{
+  position: relative;
+  bottom: 0px;
+
+  height: 100%;
+}
+#videoOverlay{
+  position: relative;
+  width: 100%;
+  height: 65%;
+
+  margin-left: 5%;
+
+  top: 18%;
+
+  z-index: 2;
+}
+#videoOverlay i{
+  position: absolute;
+  left: 47%;
+
+  top: 45%;
+
+  color: rgba(238, 238, 238, 0.9);
+
+  transition: .4s;
+}
+#productVideo{
+  position: relative;
+
+  width: 50%;
+  height: 100%;
+}
+#productVideo video{
+  position: absolute;
+  width: 100%;
+  height: 65%;
+
+  margin-left: 5%;
+
+  top: 18%;
+
+  filter: brightness(100%);
+
+  transition: .4s;
 }
         /*ABOUT*/
 #staffOne{
   position: relative;
+  left: 150px;
   height: 350px;
 }
 #staffOne img{
@@ -541,7 +580,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -555,7 +594,7 @@ html,body{
 
         color: #ffffff;
 }
-#about-section-two h1{/* FIXME:  */
+#about-section-two h1{
         position: relative;
         top: 75px;
         right: 20px;
@@ -563,17 +602,24 @@ html,body{
         color: #303030;
 
         font-size: 70px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         letter-spacing: 1px;
 }
 #about-section-two h2{
-  position: relative;
-  top: 125px;
+    position: relative;
 
-  color: #303030;
-  max-width: 700px;
+    top: 125px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+    line-height: 2;
+
+    font-size: 18px;
+
+    color: #303030;
 }
 #about-section-two hr{
         position: relative;
@@ -594,7 +640,7 @@ html,body{
         color: #ffffff;
 
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -616,7 +662,7 @@ html,body{
         color: #303030;
 
         font-size: 70px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
 
         letter-spacing: 1px;
@@ -641,10 +687,12 @@ html,body{
 }
 #threeCol div{
     position: relative;
-    font-size: 13px;
+    font-size: 14px;
+    font-family: 'Cabin', sans-serif;
     font-weight: 100;
     bottom: 0px;
 
+    color: #313131;
     padding-top: 50px;
     padding-bottom: 50px;
 
@@ -658,7 +706,6 @@ html,body{
 }
 #threeCol div:hover{
     position: relative;
-    font-size: 13px;
     bottom: 10px;
 }
 #threeCol hr{
@@ -675,16 +722,17 @@ html,body{
 }
 #threeCol h3{
   font-size: 32px;
-  font-weight: 100;
+  font-weight: 500;
+  font-family: 'Cabin', sans-serif;
 }
     /*Used in About*/
 #twoCol{
     position: relative;
-    top: 250px;
+    top: 225px;
     height: 350px;
 
-    margin-top: 20px;
-    margin-bottom: 250px;
+    margin-top: 0px;
+    margin-bottom: 225px;
 
     background-color: #d1d1d1;
 
@@ -715,16 +763,23 @@ html,body{
 
   border-color: #8a8a8a;
 }
+#staffTwo{
+    position: relative;
+    right: 100px;
+}
 #staffTwo h3{
     position: relative;
-  font-size: 42px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 42px;
   font-weight: 600;
+  color: #313131;
 
 }
 #staffTwo h4{
     position: absolute;
     font-size: 16px;
     font-weight: 100;
+    font-family: 'Cabin', sans-serif;
 
     margin-right: 175px;
     margin-left: 175px;
@@ -738,8 +793,9 @@ html,body{
     padding-bottom: 10px;
 
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 100;
+    font-family: 'Cabin', sans-serif;
 
     border-radius: 3px;
 
@@ -754,11 +810,6 @@ html,body{
             transition-timing-function: ease;
 }
 .contactButton:hover{
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-
     background-color: #d5d2d2;
 
     -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
@@ -784,14 +835,15 @@ html,body{
 }
 
 .buyButton{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 100;
+    font-family: 'Cabin', sans-serif;
 
     border-radius: 3px;
 
@@ -806,11 +858,6 @@ html,body{
             transition-timing-function: ease;
 }
 .buyButton:hover{
-    padding-left: 22px;
-    padding-right: 22px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-
     background-color: #d5d2d2;
 
     -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
@@ -818,11 +865,6 @@ html,body{
             box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.05);
 }
 .buyButton:active{
-    padding-left: 17px;
-    padding-right: 17px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-
     background-color: #555555;
     color: #ffffff;
 
@@ -844,7 +886,7 @@ html,body{
     /*Used for class based styling*/
 .sections h1{
         font-size: 40px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 700;
         margin-top: 0px;
         margin-bottom: -10px;
@@ -856,7 +898,7 @@ html,body{
         color: #ffffff;
 
         font-size: 20px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
         font-weight: 100;
         margin-top: 10px;
 }
@@ -866,11 +908,30 @@ html,body{
         min-width: 100%;
 
         background-color: #ffffff;
-        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
-                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         font-size: 30px;
-        font-family: sans-serif;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 100;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        z-index: 2;
+
+        -webkit-transition: background-color .1s, color .1s;
+
+        transition: background-color .1s, color .1s;
+        -webkit-transition-timing-function: ease;
+                transition-timing-function: ease;
+}
+.sectionBarIdle{
+        position: relative;
+        min-width: 100%;
+
+        background-color: #ffffff;
+
+        font-size: 30px;
+        font-family: 'Cabin', sans-serif;
         font-weight: 100;
 
         padding-top: 50px;
@@ -917,8 +978,14 @@ html,body{
   left: 0px;
   color: #ffffff;
 
+  margin-top: 25px;
+  margin-bottom: 25px;
+
   font-size: 50px;
   font-weight: 100;
+}
+#footerBar h1 img{
+    width: 250px;
 }
 #footerBar h2{
   position: relative;
@@ -940,34 +1007,31 @@ html,body{
 
 #socialBar{
   position: relative;
-  top:-40px;
-  right: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 1920px;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
 }
-.socialIcon img{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-
-  -webkit-filter: brightness(100%);
-
-          filter: brightness(100%);
-
-  -webkit-transition: -webkit-filter .2s;
-
-  transition: -webkit-filter .2s;
-
-  transition: filter .2s;
-
-  transition: filter .2s, -webkit-filter .2s;
+#socialIcon{
+    position: absolute;
+    width: 500px;
 }
-.socialIcon img:hover{
-  -webkit-filter: brightness(60%);
-          filter: brightness(60%);
+#socialBar img{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 30px;
+
+    opacity: 1;
+
+    transition: .2s;
+}
+#socialBar img:hover{
+    opacity: .5;
+
 }
 
 #devunoLogo img{
@@ -1024,11 +1088,11 @@ html,body{
           margin-left: 10%;
   }
   #products-section-four h1{
-          top: 150px;
+          top: 250px;
           right: 0px;
   }
   #products-section-four h2{
-          top: 150px;
+          top: 250px;
           right: 0px;
   }
   #contact-section-two h2{
@@ -1039,7 +1103,7 @@ html,body{
       margin-left: 10%;
   }
   #buyNow2{
-      top: 150px;
+      top: 250px;
       margin-right: 15%;
   }
   #about-image-two{
@@ -1074,6 +1138,12 @@ html,body{
   #twoCol h4{
       margin-left: 0px;
       margin-right: 0px;
+  }
+  #staffTwo{
+      right: 0px;
+  }
+  #staffOne{
+      left: 0px;
   }
 
   #section-three h1, #section-three h2{
@@ -1111,9 +1181,13 @@ html,body{
   #socialBar{
     right: 0px;
   }
+
 }
     /*Used for footer HR and H2 adjustments in positioning*/
 @media only screen and (max-width: 600px) {
+    #logo img{
+        position: relative;
+    }
     /*Sections Only*/
     #products-image-two{
       height: 1550px;
@@ -1158,12 +1232,15 @@ html,body{
             margin-left: 10%;
     }
     #products-section-four h1{
-            top: 120px;
+            top: 175px;
             right: 25px;
     }
     #products-section-four h2{
-            top: 120px;
+            top: 175px;
             right: 25px;
+    }
+    #productVideo video{
+      width: 450px;
     }
     #contact-section-two h2{
     }
@@ -1178,7 +1255,7 @@ html,body{
         margin-left: 10%;
     }
     #buyNow2{
-        top: 120px;
+        top: 185px;
         margin-right: 10%;
     }
 
@@ -1214,6 +1291,11 @@ html,body{
     #socialBar{
         right: 30px;
     }
+    #contentSEC{
+      position: relative;
+      top: 175px;
+    }
+
 }
     /*Used to expand height of sections on wider resolutions*/
 @media only screen and (min-width: 1280px){
@@ -1311,7 +1393,14 @@ html,body{
 }
     /*Used to rescale the sectionBar links*/
 @media only screen and (min-width: 1920px){
+
+    #staffTwo{
+        right: 150px;
+    }
     .sectionBar{
+        min-width: 1920px;
+    }
+    .sectionBarIdle{
         min-width: 1920px;
     }
 }
