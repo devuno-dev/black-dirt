@@ -1,3 +1,6 @@
+html{
+    background-color: #eeeeee;
+}
 html,body{
         width: 100%;
         margin: 0px;
@@ -11,8 +14,6 @@ html,body{
 
 #navBar{
         background-color: #ffffff;
-        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
-                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
         max-width: 1920px;
 
         padding-top: 10px;
@@ -147,15 +148,6 @@ html,body{
         height: 650px;
 }
 
-#products-section-two{
-    -webkit-box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
-            box-shadow: 0px -5px 20px 5px rgba(22, 22, 22, 0.30);
-}
-#products-section-three{
-    -webkit-box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.30);
-            box-shadow: 0px 10px 20px 5px rgba(22, 22, 22, 0.30);
-}
-
 #contact-section-one,
 #contact-section-two{
   position: relative;
@@ -173,12 +165,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/stock_2.jpg");
-        background-repeat:;
+        background-image:url("../img/backgrounds/farm-1.png");
+        background-repeat:cover;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
-        background-position: 50% 70%;
-        background-attachment: fixed;
+        background-position: 90% 50%;
         z-index: -3;
 }
 #image-two{
@@ -186,12 +177,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_3.jpg");
+        background-image: url("../img/backgrounds/farm-3.png");
         background-repeat:;
         -webkit-filter: contrast(80%) brightness(80%);
                 filter: contrast(80%) brightness(80%);
-        background-position: 70% 70%;
-        background-attachment: fixed;
+        background-position: 80% 70%;
         z-index: -2;
 
 }
@@ -200,13 +190,12 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_4.jpg");
+        background-image: url("../img/backgrounds/products-1.png");
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 5%;
         -webkit-filter: contrast(90%) brightness(80%);
                 filter: contrast(90%) brightness(80%);
-        background-attachment: scroll;
         z-index: -2;
 }
 #image-four{
@@ -214,13 +203,12 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_5.jpg");
+        background-image: url("../img/backgrounds/farm-2.png");
         background-repeat:repeat;
         background-size: cover;
-        background-position: 10% 5%;
+        background-position: 20% 40%;
         -webkit-filter: contrast(90%) brightness(80%);
                 filter: contrast(90%) brightness(80%);
-        background-attachment: fixed;
         z-index: -1;
 }
 #products-image-one{
@@ -228,12 +216,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/farm_1.png");
+        background-image:url("../img/backgrounds/farm-4-blur.png");
         background-repeat:;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
-        background-position: 50% 70%;
-        background-attachment: fixed;
+        background-position: 80% 40%;
         z-index: -3;
 }
 #products-image-two{
@@ -253,12 +240,12 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_4.jpg");
+        background-image: url("../img/backgrounds/products-2.png");
         background-repeat:repeat;
         background-size: cover;
-        background-position: 10% 5%;
-        -webkit-filter: contrast(90%) brightness(80%);
-                filter: contrast(90%) brightness(80%);
+        background-position: 10% 30%;
+        -webkit-filter: contrast(80%) brightness(70%);
+                filter: contrast(80%) brightness(70%);
         background-attachment: scroll;
         z-index: -2;
 }
@@ -267,11 +254,11 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/stock_3.jpg");
+        background-image: url("../img/backgrounds/farm-3.png");
         background-repeat:;
         -webkit-filter: contrast(80%) brightness(80%);
                 filter: contrast(80%) brightness(80%);
-        background-position: 70% 70%;
+        background-position: 70% 30%;
         background-attachment: scroll;
         z-index: -2;
 
@@ -282,12 +269,11 @@ html,body{
         top: 0px;
         height: 385px;
         width: 100%;
-        background-image:url("../img/stock_2.jpg");
+        background-image:url("../img/backgrounds/farm-4-blur.png");
         background-repeat:;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
-        background-position: 50% 70%;
-        background-attachment: fixed;
+        background-position: 50% 50%;
         z-index: -3;
 }
 #contact-image-two{
@@ -298,7 +284,6 @@ html,body{
         background-image: url("../img/stock_3_frosted.png");
         background-repeat:;
         background-position: 95% 90%;
-        background-attachment: fixed;
         z-index: -2;
 
 }
@@ -923,8 +908,6 @@ html,body{
         min-width: 100%;
 
         background-color: #ffffff;
-        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
-                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         font-size: 30px;
         font-family: 'Cabin', sans-serif;
@@ -946,8 +929,6 @@ html,body{
         min-width: 100%;
 
         background-color: #ffffff;
-        -webkit-box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
-                box-shadow: 0px 5px 20px 5px rgba(22, 22, 22, 0.10);
 
         font-size: 30px;
         font-family: 'Cabin', sans-serif;
@@ -1417,6 +1398,9 @@ html,body{
         right: 150px;
     }
     .sectionBar{
+        min-width: 1920px;
+    }
+    .sectionBarIdle{
         min-width: 1920px;
     }
 }
