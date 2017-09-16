@@ -165,7 +165,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/backgrounds/farm-1.png");
+        background-image:url("../img/backgrounds/farm-1.jpg");
         background-repeat:cover;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
@@ -177,7 +177,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/backgrounds/farm-3.png");
+        background-image: url("../img/backgrounds/farm-3.jpg");
         background-repeat:;
         -webkit-filter: contrast(80%) brightness(80%);
                 filter: contrast(80%) brightness(80%);
@@ -190,7 +190,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/backgrounds/products-1.png");
+        background-image: url("../img/backgrounds/products-1.jpg");
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 5%;
@@ -203,7 +203,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/backgrounds/farm-2.png");
+        background-image: url("../img/backgrounds/farm-2.jpg");
         background-repeat:repeat;
         background-size: cover;
         background-position: 20% 40%;
@@ -216,7 +216,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image:url("../img/backgrounds/farm-4-blur.png");
+        background-image:url("../img/backgrounds/farm-4-blur.jpg");
         background-repeat:;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
@@ -240,7 +240,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/backgrounds/products-2.png");
+        background-image: url("../img/backgrounds/products-2.jpg");
         background-repeat:repeat;
         background-size: cover;
         background-position: 10% 30%;
@@ -254,7 +254,7 @@ html,body{
         top: 0px;
         height: 650px;
         width: 100%;
-        background-image: url("../img/backgrounds/farm-3.png");
+        background-image: url("../img/backgrounds/farm-3.jpg");
         background-repeat:;
         -webkit-filter: contrast(80%) brightness(80%);
                 filter: contrast(80%) brightness(80%);
@@ -269,7 +269,7 @@ html,body{
         top: 0px;
         height: 385px;
         width: 100%;
-        background-image:url("../img/backgrounds/farm-4-blur.png");
+        background-image:url("../img/backgrounds/farm-4-blur.jpg");
         background-repeat:;
         -webkit-filter: contrast(90%);
                 filter: contrast(90%);
