@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Products</title>
+        <title>Products - Black Dirt Organics</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="icon" href="/img/" sizes="31x31">
+        <link rel="icon" href="img/logo/favicon.png" type="image/png" sizes="16x16">
         <script src="js/dropDownMenu.js" type="text/javascript"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     </head>
 
     <body>
@@ -18,7 +19,7 @@
 
                 <!-- Title & Logo Section - Left Aligned-->
                     <span class="w3-bar-item w3-left w3-mobile">
-                            <a id="logo" class="w3-mobile" href="index.html">Logo</a>
+                        <a id="logo" class="w3-mobile" href="index.html"><img src="img/logo/blackdirt_logo.png" alt="Logo"></a>
                     </span>
 
                 <!-- Navigation Tabs Section - Right Aligned-->
@@ -47,7 +48,7 @@
             <section id="products-section-one" class="sections w3-content">
 
                 <!-- Space for images & info regarding the product -->
-                    <h1 class="w3-center w3-mobile">Learn about <br> our Products.
+                    <h1 class="w3-center w3-mobile">Learn about <br> our Products
                             <br>
                         <i id="" class="w3-xxxlarge material-icons">keyboard_arrow_down</i>
                     </h1>
@@ -59,7 +60,7 @@
                 <!-- Space for images & info regarding the product -->
                     <h1 class="w3-center w3-mobile">Uncompromising quality.</h1>
                     <hr class="w3-mobile">
-                    <h2 class="w3-center w3-mobile">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <h2 class="w3-center w3-mobile">Black Dirt Organics provides products that are proven to be sustainable. Learn more about our award-winning product below.
                         <br>
                         <br>
                         <br>
@@ -94,42 +95,47 @@
                     </div>
 
             </section>
-            <div class="sectionBar w3-center w3-content w3-mobile">We offer two main products.<i class="pageIcons w3-center w3-xlarge material-icons">keyboard_arrow_down</i></div>
+            <div class="sectionBarIdle w3-center w3-content w3-mobile"><i class="pageIcons w3-center w3-xlarge material-icons">keyboard_arrow_down</i></div>
 
             <section id="products-section-three" class="sections w3-content">
 
                 <!-- Space for images & info regarding the product -->
-                    <h1 class="w3-left-align w3-mobile">Fulvic Bloom</h1>
+                    <h1 class="w3-left-align w3-mobile">Fulvic Buffet</h1>
                     <h2 class="w3-left-algin w3-mobile">A non-chemical liquid fertilizer that can be applied directly to plants to increase plant's nutrient density as measured by Brix, a refractive index. It works in as little as 30 minutes.</h2>
                     <a href="#" id="buyNow1" class="w3-left buyButton">Buy Now</a>
                     <div id="products-image-three" class="w3-container w3-mobile"></div>
             </section>
 
-            <section id="products-section-four" class="sections w3-content">
+            <section id="products-section-four" class="sections w3-hide-small w3-hide-medium w3-content">
 
                 <!-- Space for images & info regarding the product -->
-                    <h1 class="w3-right-align w3-mobile">Bio-Microbial Bloom</h1>
-                    <h2 class="w3-right-align w3-mobile">An application of natural, beneficial micro-organisms to stimulate plant yield, protect plants from disease, and incorporate nutrition from the soil.</h2>
-                    <a href="#" id="buyNow2" class="w3-right buyButton">Buy Now</a>
+                    <div id="productVideo" class="w3-left w3-hide-small w3-col s6 w3-mobile">
+                      <div id="videoOverlay" onclick="playPause()" class=""><i id="pausePlayArrow" class="w3-xxxlarge w3-center material-icons">play_arrow</i></div>
+                      <video id="fulvicVideo" src="img/vd/Fulvic Bloom - Consumer.mp4"></video>
+                    </div>
+                    <div id="contentSEC" class="w3-right w3-col s6 w3-mobile">
+                      <h1 class="w3-right-align w3-mobile">Video</h1>
+                      <h2 class="w3-right-align w3-mobile">An application of natural, beneficial micro-organisms to stimulate plant yield, protect plants from disease, and incorporate nutrition from the soil.</h2>
+                      <a href="#" id="buyNow2" class="w3-right buyButton">Buy Now</a>
+                    </div>
                     <div id="products-image-four" class="w3-container w3-mobile"></div>
-
             </section>
 
             <!-- Footer -->
                 <section id="footer" class="w3-content">
                     <!-- Logo, Address, Contact and Seperating Break; Encapsulating the socialBar - Center Aligned-->
                     <div id="footerBar" class="w3-center w3-bar w3-mobile">
-                        <h1>Logo</h1>
-                        <h2 class="w3-left-align">123 Lorem Street, Orem UT 84057</h2>
+                        <h1><img src="img/logo/blackdirt_logo_2-light.png" alt="Logo"></h1>
+                        <h2 class="w3-left-align">883 South 400 West, Orem, UT 84058</h2>
                         <hr class="w3-mobile">
 
                     <!-- Social Media and Devuno logo - Center Aligned-->
-                        <div id="socialBar" class="w3-center w3-bar w3-mobile">
-                            <a class="socialIcon w3-bar-item w3-mobile" href="facebook.com"><img class="" src="img/SocialIcons/facebook_1.png"></a>
-                            <a class="socialIcon w3-bar-item w3-mobile" href="twitter.com"><img class="" src="img/SocialIcons/twitter_2.png"></a>
-                            <a class="socialIcon w3-bar-item w3-mobile" href="linkedin.com"><img class="" src="img/SocialIcons/linkedin_3.png"></a>
-                            <a class="socialIcon w3-bar-item w3-mobile" href="instagram.com"><img class="" src="img/SocialIcons/instagram_4.png"></a>
-                            <a class="socialIcon w3-bar-item w3-mobile" href="youtube.com"><img class="" src="img/SocialIcons/youtube_5.png"></a>
+                        <div id="socialBar" class="w3-center w3-mobile">
+                            <a class="socialIcon w3-mobile" href="facebook.com"><img class="" src="img/SocialIcons/facebook_1.png"></a>
+                            <a class="socialIcon w3-mobile" href="twitter.com"><img class="" src="img/SocialIcons/twitter_2.png"></a>
+                            <a class="socialIcon w3-mobile" href="linkedin.com"><img class="" src="img/SocialIcons/linkedin_3.png"></a>
+                            <a class="socialIcon w3-mobile" href="instagram.com"><img class="" src="img/SocialIcons/instagram_4.png"></a>
+                            <a class="socialIcon w3-mobile" href="youtube.com"><img class="" src="img/SocialIcons/youtube_5.png"></a>
                         </div>
                         <br>
                         <a id="devunoLogo" class="w3-center w3-hide-small w3-mobile" href="facebook.com"><img class="w3-mobile" src="img/dev_noName1.png"></a>
@@ -138,4 +144,22 @@
                 </section>
 
     </body>
+
+    <script type="text/javascript" id="playPauseButton">
+      var myVideo = document.getElementById('fulvicVideo');
+
+      function playPause(){
+        if (myVideo.paused) {
+          myVideo.play();
+          document.getElementById('pausePlayArrow').style.color = 'rgba(238, 238, 238, 0.0)';
+          document.getElementById('fulvicVideo').style.filter = 'brightness(100%)';
+        }
+        else{
+          myVideo.pause();
+          document.getElementById('pausePlayArrow').style.color = 'rgba(238, 238, 238, 0.9)';
+          document.getElementById('fulvicVideo').style.filter = 'brightness(50%)';
+        }
+      }
+
+    </script>
 </html>
